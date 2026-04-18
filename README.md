@@ -1,24 +1,17 @@
-\# 🌍 Air Quality Index (AQI) Analysis \& Prediction
+\🌍 Air Quality Index (AQI) Analysis \& Prediction
 
-
-
-\## 📌 Overview
+\📌 Overview
 
 This project presents a data-driven analysis of Air Quality Index (AQI) using real-world environmental data. It focuses on understanding pollution patterns and building a predictive model using machine learning techniques.
 
-
-
 The dataset is sourced from the Government of India open data platform (data.gov.in).
-
-
 
 \---
 
 
+\📊 Dataset
 
-\## 📊 Dataset
-
-\- Source: data.gov.in  
+\- Source:   https://www.data.gov.in/resource/real-time-air-quality-index-various-locations
 
 \- Features:
 
@@ -28,21 +21,15 @@ The dataset is sourced from the Government of India open data platform (data.gov
 
 &#x20; - pollutant\_avg  
 
-
-
 The dataset represents pollution levels across different states and cities, enabling regional analysis of air quality.
-
-
 
 \---
 
 
 
-\## ⚙️ Methodology
+\⚙️ Methodology
 
-
-
-\### 🔹 Data Preprocessing
+\🔹 Data Preprocessing
 
 \- Missing value handling (mean imputation)
 
@@ -51,8 +38,7 @@ The dataset represents pollution levels across different states and cities, enab
 \- Feature scaling using Min-Max normalization
 
 
-
-\### 🔹 Exploratory Data Analysis
+\🔹 Exploratory Data Analysis
 
 \- State-wise and city-wise pollution comparison  
 
@@ -64,7 +50,7 @@ The dataset represents pollution levels across different states and cities, enab
 
 
 
-\### 🔹 Model Development
+\🔹 Model Development
 
 \- Model: Linear Regression  
 
@@ -72,15 +58,11 @@ The dataset represents pollution levels across different states and cities, enab
 
 \- Target Variable: pollutant\_avg  
 
-
-
 \---
 
 
 
-\## 📈 Results
-
-
+\📈 Results
 
 | Metric | Value |
 
@@ -92,49 +74,38 @@ The dataset represents pollution levels across different states and cities, enab
 
 | MSE | 57.97 |
 
-
-
 The model demonstrates strong predictive performance with high accuracy and low error values.
 
+\---
 
+
+
+\📸 Visualizations
+
+
+\🔹 Top Polluted States
+
+![Top States](https://github.com/kumaradi9508/AQI-Analysis-and-Prediction/blob/07aedac1d01a8db1ecdba92e7ec8ef0c90049026/images/fig1.png)
+
+
+\🔹 Distribution of Pollution Levels
+
+![Distribution Analysis](https://github.com/kumaradi9508/AQI-Analysis-and-Prediction/blob/07aedac1d01a8db1ecdba92e7ec8ef0c90049026/images/fig3.png)
+
+\🔹 Correlation Heatmap
+
+![Heatmap](https://github.com/kumaradi9508/AQI-Analysis-and-Prediction/blob/07aedac1d01a8db1ecdba92e7ec8ef0c90049026/images/fig5.png)
+
+
+\🔹 Actual vs Predicted
+
+![Prediction](https://github.com/kumaradi9508/AQI-Analysis-and-Prediction/blob/07aedac1d01a8db1ecdba92e7ec8ef0c90049026/images/fig10.png)
 
 \---
 
 
 
-\## 📸 Visualizations
-
-
-
-\### 🔹 Top Polluted States
-
-!\[Top States](images/fig1.png)
-
-
-
-\### 🔹 Top Polluted Cities
-
-!\[Top Cities](images/fig2.png)
-
-
-
-\### 🔹 Correlation Heatmap
-
-!\[Heatmap](images/fig5.png)
-
-
-
-\### 🔹 Actual vs Predicted
-
-!\[Prediction](images/fig10.png)
-
-
-
-\---
-
-
-
-\## 🛠 Tech Stack
+\🛠 Tech Stack
 
 \- Python  
 
@@ -148,13 +119,11 @@ The model demonstrates strong predictive performance with high accuracy and low 
 
 \- Scikit-learn  
 
-
-
 \---
 
 
 
-\## ⚠️ Limitations
+\⚠️ Limitations
 
 \- Absence of temporal (time-series) data  
 
@@ -162,21 +131,17 @@ The model demonstrates strong predictive performance with high accuracy and low 
 
 \- Limited feature set  
 
-
-
 \---
 
 
 
-\## 🚀 Future Work
+\🚀 Future Work
 
 \- Implementation of advanced models (e.g., XGBoost)  
 
 \- Integration of weather data  
 
 \- Time-series forecasting  
-
-
 
 \---
 
@@ -186,15 +151,13 @@ The model demonstrates strong predictive performance with high accuracy and low 
 
 The complete IEEE-format report is available here:  
 
-👉 \[View Report](report/AQI\_Report.pdf)
+👉 [View Report](https://github.com/kumaradi9508/AQI-Analysis-and-Prediction/blob/07aedac1d01a8db1ecdba92e7ec8ef0c90049026/report/AQI_Report.pdf)
 
 
 
 \---
 
-
-
-\## 👨‍💻 Author
+\👨‍💻 Author
 
 Aditya Kumar  
 
@@ -202,13 +165,10 @@ B.Tech Computer Science Engineering
 
 Lovely Professional University  
 
-
-
 \---
 
 
-
-\## ⭐ Support
+\⭐ Support
 
 If you found this project useful, consider giving it a ⭐ on GitHub!
 
