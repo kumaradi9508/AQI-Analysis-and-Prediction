@@ -18,7 +18,7 @@ The dataset is sourced from the Government of India open data platform (data.gov
 
    &#x20; - pollutant\_avg  
 
-  The dataset represents pollution levels across different states and cities, enabling regional analysis of air quality.
+   The dataset represents pollution levels across different states and cities, enabling regional analysis of air quality.
 
 ⚙️ Methodology
 
@@ -60,7 +60,7 @@ The dataset is sourced from the Government of India open data platform (data.gov
 
   | MSE | 57.97 |
 
- The model demonstrates strong predictive performance with high accuracy and low error values.
+  The model demonstrates strong predictive performance with high accuracy and low error values.
 
 📸 Visualizations
 
@@ -97,25 +97,25 @@ The dataset is sourced from the Government of India open data platform (data.gov
 
 ⚠️ Limitations
 
-  Absence of temporal (time-series) data  
+   Absence of temporal (time-series) data  
 
-  Lack of meteorological features (temperature, humidity, wind speed)  
+   Lack of meteorological features (temperature, humidity, wind speed)  
 
-  Limited feature set  
+   Limited feature set  
 
 🚀 Future Work
 
-  Implementation of advanced models (e.g., XGBoost)  
+   Implementation of advanced models (e.g., XGBoost)  
 
-  Integration of weather data  
+   Integration of weather data  
 
-  Time-series forecasting  
+   Time-series forecasting  
 
 📄 Documentation
 
-The complete IEEE-format report is available here:  
+  The complete IEEE-format report is available here:  
 
-👉 [View Report](https://github.com/kumaradi9508/AQI-Analysis-and-Prediction/blob/07aedac1d01a8db1ecdba92e7ec8ef0c90049026/report/AQI_Report.pdf)
+  👉 [View Report](https://github.com/kumaradi9508/AQI-Analysis-and-Prediction/blob/07aedac1d01a8db1ecdba92e7ec8ef0c90049026/report/AQI_Report.pdf)
 
 👨‍💻 Author
 
