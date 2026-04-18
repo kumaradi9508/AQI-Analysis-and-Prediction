@@ -1,163 +1,123 @@
-\🌍 Air Quality Index (AQI) Analysis \& Prediction
+🌍 Air Quality Index (AQI) Analysis & Prediction
 
-\📌 Overview
+📌 Overview
 
 This project presents a data-driven analysis of Air Quality Index (AQI) using real-world environmental data. It focuses on understanding pollution patterns and building a predictive model using machine learning techniques.
 
 The dataset is sourced from the Government of India open data platform (data.gov.in).
 
-\---
+📊 Dataset
 
+  Source:   https://www.data.gov.in/resource/real-time-air-quality-index-various-locations
 
-\📊 Dataset
+  Features:
 
-\- Source:   https://www.data.gov.in/resource/real-time-air-quality-index-various-locations
+   &#x20; - pollutant\_min  
 
-\- Features:
+   &#x20; - pollutant\_max  
 
-&#x20; - pollutant\_min  
+   &#x20; - pollutant\_avg  
 
-&#x20; - pollutant\_max  
+  The dataset represents pollution levels across different states and cities, enabling regional analysis of air quality.
 
-&#x20; - pollutant\_avg  
+⚙️ Methodology
 
-The dataset represents pollution levels across different states and cities, enabling regional analysis of air quality.
+🔹Data Preprocessing
 
-\---
+  Missing value handling (mean imputation)
 
+  Outlier detection and removal using IQR
 
+  Feature scaling using Min-Max normalization
 
-\⚙️ Methodology
+🔹Exploratory Data Analysis
 
-\🔹 Data Preprocessing
+  State-wise and city-wise pollution comparison  
 
-\- Missing value handling (mean imputation)
+  Distribution analysis (histograms)  
 
-\- Outlier detection and removal using IQR
+  Correlation analysis (heatmaps)  
 
-\- Feature scaling using Min-Max normalization
+  Feature relationship analysis (scatter plots)  
 
+🔹Model Development
 
-\🔹 Exploratory Data Analysis
+  Model: Linear Regression  
 
-\- State-wise and city-wise pollution comparison  
+  Input Features: pollutant\_min, pollutant\_max  
 
-\- Distribution analysis (histograms)  
+  Target Variable: pollutant\_avg  
 
-\- Correlation analysis (heatmaps)  
+📈 Results
 
-\- Feature relationship analysis (scatter plots)  
+  | Metric | Value |
 
+  |-------|------|
 
+  | R² Score | 0.9271 |
 
-\🔹 Model Development
+  | MAE | 4.54 |
 
-\- Model: Linear Regression  
+  | MSE | 57.97 |
 
-\- Input Features: pollutant\_min, pollutant\_max  
+ The model demonstrates strong predictive performance with high accuracy and low error values.
 
-\- Target Variable: pollutant\_avg  
+📸 Visualizations
 
-\---
-
-
-
-\📈 Results
-
-| Metric | Value |
-
-|-------|------|
-
-| R² Score | 0.9271 |
-
-| MAE | 4.54 |
-
-| MSE | 57.97 |
-
-The model demonstrates strong predictive performance with high accuracy and low error values.
-
-\---
-
-
-
-\📸 Visualizations
-
-
-\🔹 Top Polluted States
+🔹Top Polluted States
 
 ![Top States](https://github.com/kumaradi9508/AQI-Analysis-and-Prediction/blob/07aedac1d01a8db1ecdba92e7ec8ef0c90049026/images/fig1.png)
 
 
-\🔹 Distribution of Pollution Levels
+🔹Distribution of Pollution Levels
 
 ![Distribution Analysis](https://github.com/kumaradi9508/AQI-Analysis-and-Prediction/blob/07aedac1d01a8db1ecdba92e7ec8ef0c90049026/images/fig3.png)
 
-\🔹 Correlation Heatmap
+🔹Correlation Heatmap
 
 ![Heatmap](https://github.com/kumaradi9508/AQI-Analysis-and-Prediction/blob/07aedac1d01a8db1ecdba92e7ec8ef0c90049026/images/fig5.png)
 
-
-\🔹 Actual vs Predicted
+🔹Actual vs Predicted
 
 ![Prediction](https://github.com/kumaradi9508/AQI-Analysis-and-Prediction/blob/07aedac1d01a8db1ecdba92e7ec8ef0c90049026/images/fig10.png)
 
-\---
+🛠 Tech Stack
 
+   Python  
 
+   Pandas  
 
-\🛠 Tech Stack
+   NumPy  
 
-\- Python  
+   Matplotlib  
 
-\- Pandas  
+   Seaborn  
 
-\- NumPy  
+   Scikit-learn  
 
-\- Matplotlib  
+⚠️ Limitations
 
-\- Seaborn  
+  Absence of temporal (time-series) data  
 
-\- Scikit-learn  
+  Lack of meteorological features (temperature, humidity, wind speed)  
 
-\---
+  Limited feature set  
 
+🚀 Future Work
 
+  Implementation of advanced models (e.g., XGBoost)  
 
-\⚠️ Limitations
+  Integration of weather data  
 
-\- Absence of temporal (time-series) data  
+  Time-series forecasting  
 
-\- Lack of meteorological features (temperature, humidity, wind speed)  
-
-\- Limited feature set  
-
-\---
-
-
-
-\🚀 Future Work
-
-\- Implementation of advanced models (e.g., XGBoost)  
-
-\- Integration of weather data  
-
-\- Time-series forecasting  
-
-\---
-
-
-
-\## 📄 Documentation
+📄 Documentation
 
 The complete IEEE-format report is available here:  
 
 👉 [View Report](https://github.com/kumaradi9508/AQI-Analysis-and-Prediction/blob/07aedac1d01a8db1ecdba92e7ec8ef0c90049026/report/AQI_Report.pdf)
 
-
-
-\---
-
-\👨‍💻 Author
+👨‍💻 Author
 
 Aditya Kumar  
 
@@ -165,10 +125,7 @@ B.Tech Computer Science Engineering
 
 Lovely Professional University  
 
-\---
-
-
-\⭐ Support
+⭐ Support
 
 If you found this project useful, consider giving it a ⭐ on GitHub!
 
